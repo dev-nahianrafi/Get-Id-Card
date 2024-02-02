@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+body{
+    background-color: #68EDC6;
+}
+#main{
+    padding: 60px 0;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    background-color: #fff;
+    padding: 50px;
+}
+.heading{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+}
+.heading::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 4px;
+    height: 2px;
+    width: 30px;
+    background-color: #68EDC6;
+}
+.namee{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.emaill{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.prooo{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.numberr{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.address{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.card{
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    font-family: "PT Serif", serif;
+    font-size: 16px;
+}
+.btnn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btnnn{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: #78bbf5;
+    color: #222;
+    font-size: 17px;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.btnnn:hover{
+    background-color: transparent;
+    border: 2px solid #78bbf5;
+}
+.right{
+    width: 50%;
+    background-color: tomato;
+}
+.subheading{
+    padding-left: 50px;
+    font-family: "PT Serif", serif;
+    font-size: 65px;
+    line-height: 70px;
+    width: 300px;
+    margin-top: 60%;
+    transform: translate(0%, -50%);
+    text-transform: capitalize;
+}
